@@ -30,4 +30,4 @@ var Juego = /** @class */ (function () {
     return Juego;
 }());
 var juego = new Juego();
-juego.jugar([3, 5,9]); // Ejemplo de lista de suposiciones
+juego.jugar([2, 5,9]); 
