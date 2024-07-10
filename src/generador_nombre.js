@@ -4,11 +4,11 @@ var Usuario = /** @class */ (function () {
         this.lastname = lastname;
     }
     Usuario.prototype.aleatorio = function () {
-        return Math.floor(Math.random() * 10) + 1; /* metodo crea numerosaleatorios */
+        return Math.floor(Math.random() * 10) + 1;
     };
     Usuario.prototype.generdornameu = function () {
-        var tresname = this.name.substring(0, 3); /*sustrae las tres primeras lectras del nombre  */
-        var treslastname = this.lastname.substring(0, 3); /*sustrae las tres primeras lectras del apellido  */
+        var tresname = this.name.substring(0, 3); 
+        var treslastname = this.lastname.substring(0, 3); 
         var aleatorinumber = this.aleatorio();
         return tresname + treslastname + aleatorinumber;
     };
